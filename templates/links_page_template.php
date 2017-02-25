@@ -59,7 +59,7 @@ $LINKS_PAGE_TEMPLATE['LINK_TABLE_START'] = '
 	<div class="panel panel-default linktablestart"> 
   	<div class="panel-heading" style="word-wrap: break-word;">
         <div class="row">
-         <div class="col-md-8">'.LAN_LINKS_55.' <h3 class="panel-title" style=" display:inline-block;"> {LINK_CAT_NAME}</h3> 
+         <div class="col-md-8">'.LAN_LINKS_40.' <h3 class="panel-title" style=" display:inline-block;"> {LINK_CAT_NAME}</h3> 
          {LINK_CAT_TOTAL} {LINK_CAT_DESC}</div>
          <div class="col-md-2 hidden-xs hidden-sm">{LINK_RATING_LAN}</div>
          <div class="col-md-1 hidden-xs hidden-sm">{LINK_COMMENT_LAN}</div>       
