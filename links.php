@@ -341,7 +341,10 @@ function displayPersonalManager()
 		}
 		if ($db->delete("links_page", "link_id='".intval($del_id)."'")) 
 		{
-      $mes->addSuccess(LCLAN_ADMIN_10." #".$del_id." ".LCLAN_ADMIN_11);
+	
+		e107::getMessage()->addSuccess(LCLAN_ADMIN_10." #".$del_id." ".LCLAN_ADMIN_11);
+		echo e107::getMessage()->render();
+			
 		}
 	  }
 	}
