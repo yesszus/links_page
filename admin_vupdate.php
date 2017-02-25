@@ -123,7 +123,7 @@ if (file_exists("plugin.xml") OR file_exists("plugin.php"))
                     }
                     if (!empty($evrsn_url))
                     {
-                        $evrsn_text .= "<br /><br />" . EVERSION_U13 . " <a href='" . $evrsn_url . "'>" . EVERSION_U14 . "</a><br />&nbsp;";
+                        $evrsn_text .= "<br /><br />" . EVERSION_U13 . " <a target='_blank' href='" . $evrsn_url . "'>" . EVERSION_U14 . "</a><br />&nbsp;";
                     }
                     $evrsn_text .= "</td></tr>";
                 }
