@@ -131,7 +131,7 @@ if (file_exists("plugin.xml") OR file_exists("plugin.php"))
                 {
                     // It is the latest version
                     $evrsn_text .= "<tr><td class='forumheader3'><img src='" . e_PLUGIN . $path."/admin_images/installed.png' alt='' title='' /> " . EVERSION_U9;
-                    $evrsn_text .= "<br /><br />" . EVERSION_U13 . " <a href='" . $evrsn_url . "'>" . EVERSION_U14 . "</a><br /></td></tr>";
+                    $evrsn_text .= "<br /><br />" . EVERSION_U13 . " <a target='_blank' href='" . $evrsn_url . "'>" . EVERSION_U14 . "</a><br /></td></tr>";
                 }
             }
             else
