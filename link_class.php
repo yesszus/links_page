@@ -186,13 +186,13 @@ class linkclass
           
         $sotext  = "<div class='panel panel-default panel-body'>";
         $sotext .= $frm->open('linkorder','post',e_REQUEST_URI, 'class=form-inline'); 
-        $sotext .= "<div class='form-group col-md-6'> <label for='link_sorter' class='control-label'>".LAN_LINKS_15."</label>";
+        $sotext .= "<div class='form-group col-md-6'> <label for='link_sorter' class='control-label'>".LAN_LINKS_15."&nbsp;</label>";
         if($mode == "cat"){
             $sotext .= $frm->select('link_sorter', $order_options_cat, $checks);               
         }else{
             $sotext .= $frm->select('link_sorter',  $order_options_link, $checks); 
         }
-        $sotext .= "</div><div class='form-group'> <label for='link_order' class='control-label '>".LAN_LINKS_6."</label>"; 
+        $sotext .= "</div><div class='form-group'> <label for='link_order' class='control-label '>".LAN_LINKS_6."&nbsp;</label>"; 
         $sotext .= $frm->select('link_order', $sort_options, $checko); 
                                                                                  
              
