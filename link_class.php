@@ -184,7 +184,7 @@ class linkclass
          );
          
           
-        $sotext  = "<div class='panel panel-default panel-body'>";
+ /*       $sotext  = "<div class='panel panel-default panel-body'>";
         $sotext .= $frm->open('linkorder','post',e_REQUEST_URI, 'class=form-inline'); 
         $sotext .= "<div class='form-group col-md-6'> <label for='link_sorter' class='control-label'>".LAN_LINKS_15."&nbsp;</label>";
         if($mode == "cat"){
@@ -196,13 +196,13 @@ class linkclass
         $sotext .= $frm->select('link_order', $sort_options, $checko); 
                                                                                  
              
-        $sotext .= $rs -> form_button("button", "submit", LAN_LINKS_31, 
-        " onclick=\"document.location.href=link_order.options[link_order.selectedIndex].value+link_sorter.options[link_sorter.selectedIndex].value;\"", "", "");                    
-        $sotext .="</div> ";         
+        $sotext .= $rs -> form_button("button", "submit", LAN_LINKS_61, 
+      " onclick=\"document.location.href=link_order.options[link_order.selectedIndex].value+link_sorter.options[link_sorter.selectedIndex].value;\"", "", "");
+		$sotext .="</div> ";                              
         $sotext .=$frm -> close()."</div>";
            
-        return $sotext;
-    }
+        return $sotext; */
+    } 
 
 
   function parseOrderCat($orderstring)

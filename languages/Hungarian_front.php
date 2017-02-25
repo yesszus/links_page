@@ -53,7 +53,7 @@ define("LAN_LINKS_11", "Top Linkek : Értékelés");
 define("LAN_LINKS_12", "Hivatkozások");
 define("LAN_LINKS_13", "Értékelések");
 define("LAN_LINKS_14", "Kezdőlap");
-define("LAN_LINKS_15", "Rendezés:");
+define("LAN_LINKS_15", "Rendezés");
 define("LAN_LINKS_16", "a kategóriában.");
 define("LAN_LINKS_17", "link");
 define("LAN_LINKS_18", "link");
@@ -99,6 +99,7 @@ define("LAN_LINKS_57", "Név: ");
 define("LAN_LINKS_58", "Url: ");
 define("LAN_LINKS_59", "Ismertetés: ");
 define("LAN_LINKS_60", "Navigáció");
+define("LAN_LINKS_61", "Mehet");
 
 define("LCLAN_SL_1", "Beküldött Linkek");
 define("LCLAN_SL_2", "Nincs beküldött link");

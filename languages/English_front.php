@@ -44,7 +44,7 @@ define("LAN_LINKS_2", "Total links activated");
 define("LAN_LINKS_3", "Anonymous");
 define("LAN_LINKS_4", "Heading");
 define("LAN_LINKS_5", "Url");
-define("LAN_LINKS_6", "Order:");
+define("LAN_LINKS_6", "Order");
 define("LAN_LINKS_7", "Refer");
 define("LAN_LINKS_8", "Ascending");
 define("LAN_LINKS_9", "Descending");
@@ -99,6 +99,7 @@ define("LAN_LINKS_57", "Name: ");
 define("LAN_LINKS_58", "Url: ");
 define("LAN_LINKS_59", "Description: ");
 define("LAN_LINKS_60", "Navigation");
+define("LAN_LINKS_61", "Go");
 
 define("LCLAN_SL_1", "Submitted Links");
 define("LCLAN_SL_2", "No submitted links");
