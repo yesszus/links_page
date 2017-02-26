@@ -659,7 +659,7 @@ class linkclass
                 </td>
                 <td style='width:10%; text-align:center; white-space: nowrap' class='forumheader3'>
                     <a href='".e_SELF."?link.edit.".$linkid."' title='".LCLAN_ITEM_31."'>".LINK_ICON_EDIT."</a>
-                    <input type='image' title='delete' name='delete[main_{$linkid}]' alt='".LCLAN_ITEM_32."' src='".LINK_ICON_DELETE_BASE."' onclick=\"return jsconfirm('".$tp->toJS(LCLAN_ITEM_33." [ ".$row['link_name']." ]")."')\" />
+                    <input type='image' title='".LAN_DELETE."' name='delete[main_{$linkid}]' alt='".LCLAN_ITEM_32."' src='".LINK_ICON_DELETE_BASE."' onclick=\"return jsconfirm('".$tp->toJS(LCLAN_ITEM_33." [ ".$row['link_name']." ]")."')\" />
                 </td>
                 <td style='width:10%; text-align:center; white-space: nowrap' class='forumheader3'>
                     ".$up."

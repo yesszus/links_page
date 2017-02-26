@@ -101,7 +101,7 @@ class links_page_shortcodes extends e_shortcode
     $LINK_MANAGE_OPTIONS = "<a href='".$LINK_MANAGE_EDIT."' title='".LAN_LINKS_54."'>".LINK_ICON_EDIT."</a>";
    
     if (vartrue($this->plugPrefs['link_directdelete'])){
-    	$LINK_MANAGE_OPTIONS .= " <input type='image' title='delete' name='delete[main_{$linkid}]' title='".LAN_LINKS_55."' src='".LINK_ICON_DELETE_BASE."' onclick=\"return jsconfirm('".$tp->toJS(LAN_LINKS_56." [ ".$row['link_name']." ]")."')\" style='vertical-align:top;' />";
+    	$LINK_MANAGE_OPTIONS .= " <input type='image' title='".LAN_DELETE."' name='delete[main_{$linkid}]' title='".LAN_LINKS_55."' src='".LINK_ICON_DELETE_BASE."' onclick=\"return jsconfirm('".$tp->toJS(LAN_LINKS_56." [ ".$row['link_name']." ]")."')\" style='vertical-align:top;' />";
     }
     return $LINK_MANAGE_OPTIONS;
   } 
