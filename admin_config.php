@@ -46,10 +46,9 @@ class links_page_adminArea extends e_admin_dispatcher
 		'main/create'		=> array('caption'=> LCLAN_ADMINMENU_5, 'perm' => 'P'),
 		'cat/list'			=> array('caption'=> LCLAN_ADMINMENU_2, 'perm' => 'P'),
 		'cat/create'		=> array('caption'=> LCLAN_ADMINMENU_3, 'perm' => 'P'),
-		'submitted/list'		=> array('caption'=> LCLAN_ADMINMENU_7, 'perm' => 'P'),        
-		'main/prefs' 		=> array('caption'=> LCLAN_ADMINMENU_6, 'perm' => 'P'),	
- 
-    'main/eversion'		=> array('caption'=> LCLAN_ADMINMENU_9, 'perm' => 'P')
+		'submitted/list'	=> array('caption'=> LCLAN_ADMINMENU_7, 'perm' => 'P'),        
+		'main/prefs' 		=> array('caption'=> LCLAN_ADMINMENU_6, 'perm' => 'P'),
+		'main/eversion'		=> array('caption'=> LCLAN_ADMINMENU_9, 'perm' => 'P')
 	);
 
 	protected $adminMenuAliases = array(
@@ -296,13 +295,13 @@ class links_page_ui extends e_admin_ui
         'help'=>LCLAN_HELP_5),         
  
       'link_menu_caption'		=> array('title'=> LCLAN_OPT_85, 'tab'=>7, 'type'=>'text', 'data' => 'str', 'help'=>''), 
-      'link_menu_navigator_frontpage'		=> array('title'=> LCLAN_OPT_60, 'tab'=>7, 'type'=>'checkbox', 'data' => 'str', 'help'=>''),  
-      'link_menu_navigator_submit'		=> array('title'=> LCLAN_OPT_58, 'tab'=>7, 'type'=>'checkbox', 'data' => 'str', 'help'=>''),  
-      'link_menu_navigator_manager'		=> array('title'=> LCLAN_OPT_59, 'tab'=>7, 'type'=>'checkbox', 'data' => 'str', 'help'=>''), 
-      'link_menu_navigator_refer'		=> array('title'=> LCLAN_OPT_20, 'tab'=>7, 'type'=>'checkbox', 'data' => 'str', 'help'=>''), 
-      'link_menu_navigator_rated'		=> array('title'=> LCLAN_OPT_21, 'tab'=>7, 'type'=>'checkbox', 'data' => 'str', 'help'=>''),
-      'link_menu_navigator_links'		=> array('title'=> LCLAN_OPT_67, 'tab'=>7, 'type'=>'checkbox', 'data' => 'str', 'help'=>''),
-      'link_menu_navigator_category'		=> array('title'=> LCLAN_OPT_61, 'tab'=>7, 'type'=>'checkbox', 'data' => 'str', 'help'=>''),
+      'link_menu_navigator_frontpage'		=> array('title'=> LCLAN_OPT_60, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''),  
+      'link_menu_navigator_submit'		=> array('title'=> LCLAN_OPT_58, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''),  
+      'link_menu_navigator_manager'		=> array('title'=> LCLAN_OPT_59, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''), 
+      'link_menu_navigator_refer'		=> array('title'=> LCLAN_OPT_20, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''), 
+      'link_menu_navigator_rated'		=> array('title'=> LCLAN_OPT_21, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''),
+      'link_menu_navigator_links'		=> array('title'=> LCLAN_OPT_67, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''),
+      'link_menu_navigator_category'		=> array('title'=> LCLAN_OPT_61, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''),
       'link_menu_navigator_caption'		=> array('title'=> LCLAN_OPT_79, 'tab'=>7, 'type'=>'text', 'data' => 'str', 'help'=>''),      
       'link_menu_navigator_rendertype'		=> array('title'=> LCLAN_OPT_69, 'tab'=>7, 'type'=>'dropdown', 'data' => 'str', 'help'=>''),  
       'link_menu_category'		=> array('title'=> LCLAN_OPT_70, 'tab'=>7, 'type'=>'boolean', 'data' => 'str', 'help'=>''), 
@@ -314,9 +313,9 @@ class links_page_ui extends e_admin_ui
         'data' => 'str', 'help'=>''),
       'link_menu_recent'		=> array('title'=> LCLAN_OPT_72, 'tab'=>7, 'type'=>'boolean', 
         'data' => 'str', 'help'=>''),
-      'link_menu_recent_category'		=> array('title'=> LCLAN_OPT_77, 'tab'=>7, 'type'=>'checkbox', 
+      'link_menu_recent_category'		=> array('title'=> LCLAN_OPT_77, 'tab'=>7, 'type'=>'boolean', 
         'data' => 'str', 'help'=>''),
-      'link_menu_recent_description'		=> array('title'=> LCLAN_OPT_78, 'tab'=>7, 'type'=>'checkbox', 
+      'link_menu_recent_description'		=> array('title'=> LCLAN_OPT_78, 'tab'=>7, 'type'=>'boolean', 
         'data' => 'str', 'help'=>''),
       'link_menu_recent_caption'		=> array('title'=> LCLAN_OPT_81, 'tab'=>7, 'type'=>'text', 
           'data' => 'str', 'help'=>''),        

@@ -10,7 +10,7 @@
 +-----------------------------------------------------------------------+
 */
 
-define("LCLAN_DISP_NAVPAG",     "Navigátor megjelenítése az oldalon");
+define("LCLAN_DISP_NAVPAG", "Navigátor megjelenítése az oldalon");
 define("LCLAN_DISP_CATNAV", "Kategória navigátor megjelenítése az oldalon");
 
 define("LCLAN_DISP_NAVPAG_HELP", "Navigátor általános beállítás. Tiltott, az alábbi beállításokat figyelmen kívül hagyja.");
@@ -120,18 +120,18 @@ define("LCLAN_OPT_30", "növekvő");
 define("LCLAN_OPT_31", "csökkenő");
 define("LCLAN_OPT_32", "Link megnyitás módszer felülírásának használata");
 define("LCLAN_OPT_33", "Alapértelmezett átméretezési érték");
-define("LCLAN_OPT_34", "név");
-define("LCLAN_OPT_35", "url");
-define("LCLAN_OPT_36", "rendezés");
+define("LCLAN_OPT_34", "Név");
+define("LCLAN_OPT_35", "Url");
+define("LCLAN_OPT_36", "Rendezés");
 define("LCLAN_OPT_37", "Hivatkozás");
 define("LCLAN_OPT_38", "");
 define("LCLAN_OPT_39", "");
-define("LCLAN_OPT_40", "név");
-define("LCLAN_OPT_41", "id");
+define("LCLAN_OPT_40", "Név");
+define("LCLAN_OPT_41", "Id");
 define("LCLAN_OPT_42", "Egyéni link beállítások használata");
 define("LCLAN_OPT_43", "Megnyitás azonos ablakban");
 define("LCLAN_OPT_44", "Megnyitás új ablakban");
-define("LCLAN_OPT_45", "Megnyitás 600x400 -as ablakban");
+define("LCLAN_OPT_45", "Megnyitás 600x400-as ablakban");
 define("LCLAN_OPT_46", "Linkek karbantartása");
 define("LCLAN_OPT_47", "Ezek a felhasználók hozzáadhatnak/módosíthatják a saját személyes linkeket");
 define("LCLAN_OPT_48", "Közvetlen beküldés engedélyezése");
@@ -161,8 +161,8 @@ define("LCLAN_OPT_71", "Kategória linkek megjelenítési stílusa");
 define("LCLAN_OPT_72", "Új linkek megjelenítése");
 define("LCLAN_OPT_73", "Dátum kijelzése");
 define("LCLAN_OPT_74", "Hány, legújabb link jelenjen meg");
-define("LCLAN_OPT_75", "hyperlink");
-define("LCLAN_OPT_76", "kiválasztódoboz");
+define("LCLAN_OPT_75", "Hyperlink");
+define("LCLAN_OPT_76", "Kiválasztódoboz");
 define("LCLAN_OPT_77", "Kategória");
 define("LCLAN_OPT_78", "Ismertetés");
 define("LCLAN_OPT_79", "Cím navigáció");
@@ -188,7 +188,7 @@ define("LCLAN_CAT_10", "Újrarendezés");
 define("LCLAN_CAT_11", "Még nincs link kategória");
 define("LCLAN_CAT_12", "Link Kategóriák");
 define("LCLAN_CAT_13", "Név");
-define("LCLAN_CAT_14", "Ismertetés:");
+define("LCLAN_CAT_14", "Ismertetés");
 define("LCLAN_CAT_15", "Új ikon feltöltése:");
 define("LCLAN_CAT_16", "Auto-Thumbnail méret:");
 define("LCLAN_CAT_17", "Ez a lehetőség letiltva! A fáljfeltöltés nem engedélyezett a szerveren");
