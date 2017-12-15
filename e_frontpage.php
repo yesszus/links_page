@@ -8,8 +8,9 @@
  */
  
 if (!defined('e107_INIT')) { exit; }
-e107::lan('links_page', false, true);
-e107::lan('links_page', true, true);
+/*e107::lan('links_page', false, true);
+e107::lan('links_page', true, true); */
+e107::lan('links_page');
 //e107::lan('links_page');   /* FRONTEND */
 //e107::lan('links_page',true); /* ADMIN */
 

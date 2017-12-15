@@ -7,8 +7,7 @@ if (!getperms('P'))
 	exit;
 }
 
-e107::lan('links_page', 'admin', true);
-
+e107::lan('links_page', true);
 //include_lan($lan_file);
 
 class links_page_adminArea extends e_admin_dispatcher

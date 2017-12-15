@@ -4,9 +4,9 @@ if(!defined('e107_INIT'))
 {
 	require_once('../../class2.php');
 }
-e107::lan('links_page', false, true);
-e107::lan('links_page', true, true);
-
+/*e107::lan('links_page', false, true);
+e107::lan('links_page', true, true); */
+e107::lan('links_page');
 if (!e107::isInstalled('links_page')) 
 {
   e107::redirect();

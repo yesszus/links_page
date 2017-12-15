@@ -2,7 +2,7 @@
 <e107Plugin name="Linkek" lan="LCLAN_PLUGIN_LAN_1" version="2.3.1" date="2016-05-16" compatibility="2.0" installRequired="true" >
 	<author name="e107 Inc./ Jimako" url="" />
 	<summary lan="LCLAN_PLUGIN_LAN_2">Külső Web Linkek megjelenítése a weboldalon.</summary>
-	<description lan="LCLAN_PLUGIN_LAN_2"></description>
+	<description lan="LCLAN_PLUGIN_LAN_2">Külső Web Linkek megjelenítése a weboldalon.</description>
 	<keywords>
 		<word>links</word>
 		<word>page</word>

@@ -9,6 +9,7 @@
 |        $Author: Yesszus $
 +-----------------------------------------------------------------------+
 */
+define("LCLAN_PAGETITLE_1", "Linkek");
 
 define("LNK_SCH_LAN_2", "Összes link kategória");
 define("LNK_SCH_LAN_3", "Összes link részletezés");

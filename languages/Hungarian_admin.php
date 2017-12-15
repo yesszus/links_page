@@ -9,6 +9,7 @@
 |        $Author: Yesszus $
 +-----------------------------------------------------------------------+
 */
+define("LCLAN_PLUGIN_LAN_1", "Linkek Oldal");
 
 define("LCLAN_DISP_NAVPAG", "Navigátor megjelenítése az oldalon");
 define("LCLAN_DISP_CATNAV", "Kategória navigátor megjelenítése az oldalon");

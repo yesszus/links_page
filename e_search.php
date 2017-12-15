@@ -2,7 +2,8 @@
 
 if (!defined('e107_INIT')) { exit; }
 
-e107::lan('links_page', false, true); 
+//e107::lan('links_page', false, true); 
+e107::lan('links_page');
 
 class links_page_search extends e_search // include plugin-folder in the name.
 {

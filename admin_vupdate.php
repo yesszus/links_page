@@ -31,7 +31,7 @@ if (file_exists("plugin.xml") OR file_exists("plugin.php"))
     // if the plugin.php file exists
     if (is_file("e_update.php"))
     {       
-				if (file_exists("plugin.xml")) { 
+		if (file_exists("plugin.xml")) { 
         include("e_update.php");
        
         $data = $xml->loadXMLfile("plugin.xml", true);

@@ -9,6 +9,7 @@
 |        $Author: Yesszus $
 +-----------------------------------------------------------------------+
 */
+define("LCLAN_PAGETITLE_1", "Links");
 
 define("LNK_SCH_LAN_2", "All Links Categories");
 define("LNK_SCH_LAN_3", "All links details");
